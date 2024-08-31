@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!-- Remotes -->
-    <remote name="gh"
-            fetch="https://github.com/ahmedshahin9"
+    <remote name="ahmedshahin9"
+            fetch="https://github.com"
             clone-depth="1" />
  <!--Tree -->
  <project path="device/xiaomi/camellia" name="ahmedshahin9/-device_xiaomi_chameli" remote="gh" revision="Copper-T" />
