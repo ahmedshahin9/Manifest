@@ -13,11 +13,11 @@
  <!--Vendor -->
  <project path="vendor/xiaomi/camellia" name="ahmedshahin9/vendor_xiaomi_camellia" remote="gh" revision="13-plus" />
  
- <!--Extras -->
+ <!--hardware -->
  <project path="hardware/mediatek" name="ahmedshahin9/hardware_mediatek" remote="gh" revision="14-q1" />
- 
  <project path="hardware/xiaomi" name="ahmedshahin9/android_hardware_xiaomi" remote="gh" revision="lineage-21" />
-
+ 
+ <!--sepolicy -->
  <project path="device/mediatek/sepolicy_vndr" name="ahmedshahin9/-android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-21" />
 
 </manifest>
