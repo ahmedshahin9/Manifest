@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!-- Remotes -->
-    <remote name="gh"
-            fetch="https://github.com"
-            clone-depth="1" />
- <!--Tree -->
- <project path="device/xiaomi/camellia" name="ahmedshahin9/-device_xiaomi_chameli" remote="gh" revision="Copper-T" />
-
- <!--Kernel -->
- <project path="kernel/xiaomi/camellia" name="ahmedshahin9/kernel_xiaomi_chameli" remote="gh" revision="openela-lts" />
+ <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
  
- <!--Vendor -->
- <project path="vendor/xiaomi/camellia" name="ahmedshahin9/vendor_xiaomi_camellia" remote="gh" revision="13-plus" />
- 
- <!--hardware -->
- <project path="hardware/mediatek" name="ahmedshahin9/hardware_mediatek" remote="gh" revision="14-q1" />
- <project path="hardware/xiaomi" name="ahmedshahin9/android_hardware_xiaomi" remote="gh" revision="lineage-21" />
- 
- <!--sepolicy -->
- <project path="device/mediatek/sepolicy_vndr" name="ahmedshahin9/-android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-21" />
-
+ <!-- Trees -->
+ <project path="device/samsung/gta4l" name="ahmedshahin9/android_device_samsung_gta4l.git" remote="github" revision="pe+13" />
+ <project path="device/samsung/gta4l-common" name="samsung-gta4l-dev/android_device_samsung_gta4l-common.git" remote="github" revision="pe+13" />
+ <project path="hardware/samsung" name="samsung-gta4l-dev/hardware_samsung.git" remote="github" revision="thirteen" />
+ <project path="kernel/samsung/sm6115" name="samsung-gta4l-dev/android_kernel_samsung_sm6115.git" remote="github" revision="lineage-20" />
+ <project path="vendor/samsung/gta4l" name="samsung-gta4l-dev/proprietary_vendor_samsung_gta4l.git" remote="github" revision="lineage-20" />
+ <project path="vendor/samsung/gta4l-common" name="samsung-gta4l-dev/proprietary_vendor_samsung_gta4l-common.git" remote="github" revision="lineage-20" />
+ <!--Clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
 </manifest>
