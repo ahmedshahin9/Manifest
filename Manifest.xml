@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!-- Remotes -->
-    <remote name="ahmedshahin9"
+    <remote name="gh"
             fetch="https://github.com"
             clone-depth="1" />
  <!--Tree -->
