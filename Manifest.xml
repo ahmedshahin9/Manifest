@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+ <!-- Remotes -->
+    <remote name="github"
+            fetch="https://github.com"
+            clone-depth="1" />
+ <!--Tree -->
+ <project path="device/samsung/gta4l" name="ahmedshahin9/android_device_samsung_gta4l" remote="github" revision="lineage-21" />
+
+ <!--Tree_common -->
+<Project path="device/samsung/gta4l-common" name="ahmedshahin9/android_device_samsung_gta4l-common" revision="lineage-21" />
  
- <!-- Trees -->
- <project path="device/samsung/gta4l" name="ahmedshahin9/android_device_samsung_gta4l.git" remote="github" revision="pe+13" />
- <project path="device/samsung/gta4l-common" name="samsung-gta4l-dev/android_device_samsung_gta4l-common.git" remote="github" revision="pe+13" />
- <project path="hardware/samsung" name="samsung-gta4l-dev/hardware_samsung.git" remote="github" revision="thirteen" />
- <project path="kernel/samsung/sm6115" name="samsung-gta4l-dev/android_kernel_samsung_sm6115.git" remote="github" revision="lineage-20" />
- <project path="vendor/samsung/gta4l" name="samsung-gta4l-dev/proprietary_vendor_samsung_gta4l.git" remote="github" revision="lineage-20" />
- <project path="vendor/samsung/gta4l-common" name="samsung-gta4l-dev/proprietary_vendor_samsung_gta4l-common.git" remote="github" revision="lineage-20" />
- <!--Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+ <!--Kernel -->
+ <project path="kernel/samsung/gta4l" name="ahmedshahin9/android_kernel_samsung_sm6115" remote="github" revision="lineage-21" />
+ 
+ <!--Vendor -->
+ <project path="vendor/samsung_gta4l" name="ahmedshahin9/proprietary_vendor_samsung_gta4l" remote="github" revision="lineage-21" />
+
+<!--Vendor_common -->
+<Project path="vendor/samsung/gta4l_common" name="ahmedshahin9/proprietary_vendor_samsung_gta4l-common" revision="lineage-21" />
+ 
+<!--hardware -->  
+ <project path="hardware/samsung" name="ahmedshahin9/android_hardware_samsung" remote="github" revision="lineage-21" /> 
+ 
+ <!--sepolicy --> 
+<project path="device/qcom/sepolicy_vndr" name="ahmedshahin9/android_device_qcom_sepolicy_vndr" remote="github" revision="lineage-21" />
+ 
+ 
+ <!--Extras -->
+<!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
+
+ <!-- Prebuilts -->
+<remove-project name="yaosp/prebuilts_clang_host_linux-x86"/>
+
+<project path="prebuilts/clang/host/linux-x86" name="yaosp/prebuilts_clang_host_linux-x86" remote="gitlab" revision="fourteen" clone-depth="1" />
 </manifest>
