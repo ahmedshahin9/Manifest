@@ -5,25 +5,25 @@
             fetch="https://github.com"
             clone-depth="1" />
  <!--Tree -->
- <project path="device/samsung/gta4l" name="ahmedshahin9/android_device_samsung_gta4l" remote="github" revision="lineage-21" />
+ <project path="device/samsung/gta4l" name="ahmedshahin9/android_device_samsung_gta4l" revision="lineage-21" />
 
  <!--Tree_common -->
-<Project path="device/samsung/gta4l-common" name="ahmedshahin9/android_device_samsung_gta4l-common" remote="github" revision="lineage-21" />
+<Project path="device/samsung/gta4l-common" name="ahmedshahin9/android_device_samsung_gta4l-common" revision="lineage-21" />
  
  <!--Kernel -->
- <project path="kernel/samsung/gta4l" name="ahmedshahin9/android_kernel_samsung_sm6115" remote="github" revision="lineage-21" />
+ <project path="kernel/samsung/gta4l" name="ahmedshahin9/android_kernel_samsung_sm6115" revision="lineage-21" />
  
  <!--Vendor -->
- <project path="vendor/samsung_gta4l" name="ahmedshahin9/proprietary_vendor_samsung_gta4l" remote="github" revision="lineage-21" />
+ <project path="vendor/samsung_gta4l" name="ahmedshahin9/proprietary_vendor_samsung_gta4l" revision="lineage-21" />
 
 <!--Vendor_common -->
-<Project path="vendor/samsung/gta4l_common" name="ahmedshahin9/proprietary_vendor_samsung_gta4l-common" remote="github" revision="lineage-21" />
+<Project path="vendor/samsung/gta4l_common" name="ahmedshahin9/proprietary_vendor_samsung_gta4l-common" revision="lineage-21" />
  
 <!--hardware -->  
- <project path="hardware/samsung" name="ahmedshahin9/android_hardware_samsung" remote="github" revision="lineage-21" /> 
+ <project path="hardware/samsung" name="ahmedshahin9/android_hardware_samsung" revision="lineage-21" /> 
  
  <!--sepolicy --> 
-<project path="device/qcom/sepolicy_vndr" name="ahmedshahin9/android_device_qcom_sepolicy_vndr" remote="github" revision="lineage-21" />
+<project path="device/qcom/sepolicy_vndr" name="ahmedshahin9/android_device_qcom_sepolicy_vndr" revision="lineage-21" />
  
  
  <!--Extras -->
